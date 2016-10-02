@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dim3dp">3dp</dimen>
+    <dimen name="dim5dp">5dp</dimen>
+    <dimen name="dim7dp">7dp</dimen>
+    <dimen name="dim10dp">10dp</dimen>
+    <dimen name="dim12dp">12dp</dimen>
+    <dimen name="dim15dp">15dp</dimen>
+    <dimen name="dim18dp">18dp</dimen>
+    <dimen name="dim20dp">20dp</dimen>
+    <dimen name="dim25dp">25dp</dimen>
+    <dimen name="dim30dp">30dp</dimen>
+    <dimen name="dim35dp">35dp</dimen>
+    <dimen name="dim40dp">40dp</dimen>
+    <dimen name="dim45dp">45dp</dimen>
+    <dimen name="dim50dp">50dp</dimen>
+    <dimen name="dim55dp">55dp</dimen>
+    <dimen name="dim60dp">60dp</dimen>
+    <dimen name="dimPictureLockListWidthDp">200dp</dimen>
+    <dimen name="dimPictureLockListHeightDp">150dp</dimen>
+    <dimen name="dimVideoLockListWidthDp">200dp</dimen>
+    <dimen name="dimVideoLockListHeightDp">150dp</dimen>
+</resources>

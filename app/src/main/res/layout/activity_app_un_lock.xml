@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:gravity="center"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/loginStatusTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="UnLock App"
+            android:gravity="center" style="@style/TextStylePurple20dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" android:layout_marginBottom="@dimen/dim30dp">
+
+            <ImageView
+                android:layout_width="@dimen/dim50dp"
+                android:layout_height="@dimen/dim50dp"
+                android:id="@+id/imageViewAppIcon" android:src="@drawable/ic_menu_camera"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/textViewAppName"
+                android:layout_gravity="center_horizontal" android:gravity="center_vertical" />
+        </LinearLayout>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:ems="10"
+            android:id="@+id/editTextLoginPassword"
+            android:layout_gravity="center_horizontal"
+            android:hint="Enter Password"
+            android:background="@drawable/rounded_rectangle_bg"
+            android:layout_marginBottom="@dimen/dim50dp" android:padding="@dimen/dim10dp" />
+        <Button
+            android:id="@+id/buttonLoginPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UnLock"
+            android:gravity="center"
+            android:layout_gravity="center"
+            style="@style/ButtonText"
+            android:background="@drawable/btn_purple"
+            android:layout_margin="@dimen/dim3dp"/>
+
+    </LinearLayout>
+</RelativeLayout>

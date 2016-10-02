@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyLib</string>
+    <string name="dialog_title_add_blockList_item">Select Block Number source</string>
+    <string name="dialog_title_blockList_number_item">Select Option for Blocked Number  </string>
+    <string name="dialog_title_blockList_call_item">Select Option for Blocked Call </string>
+    <string name="dialog_title_blockList_sms_item">Select Option for Blocked SMS </string>
+</resources>

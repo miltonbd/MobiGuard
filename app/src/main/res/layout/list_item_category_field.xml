@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" android:padding="@dimen/dim5dp" android:focusable="true" android:focusableInTouchMode="true">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/linearLayout"
+        android:layout_toStartOf="@+id/linearLayout">
+
+        <ImageView
+            android:layout_width="@dimen/dim40dp"
+            android:layout_height="@dimen/dim40dp"
+            android:text="Order"
+            android:id="@+id/imageViewEdit"
+            android:src="@android:drawable/ic_menu_edit" android:layout_alignParentLeft="true" />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Field"
+                android:id="@+id/textViewFieldName"
+                 android:textSize="@dimen/dim18dp"
+                android:gravity="center_vertical" android:textColor="@color/purple"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageViewEdit"
+            android:layout_toEndOf="@+id/imageViewEdit"  />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editTextFieldName"
+            android:gravity="center_vertical"
+            android:layout_alignBottom="@+id/imageViewEdit"
+            android:layout_toEndOf="@+id/imageViewEdit"
+            android:layout_toRightOf="@+id/imageViewEdit" android:background="@drawable/rounded_rectangle_bg" android:visibility="invisible"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:id="@+id/linearLayout">
+
+        <ImageView
+                android:layout_width="@dimen/dim40dp"
+                android:layout_height="@dimen/dim40dp"
+                android:text="Order"
+                android:id="@+id/imageViewUp"
+                 android:src="@drawable/ic_up" />
+
+        <ImageView
+            android:layout_width="@dimen/dim40dp"
+            android:layout_height="@dimen/dim40dp"
+            android:text="Order"
+            android:id="@+id/imageViewDown"
+            android:textSize="@dimen/dim20dp" android:src="@drawable/ic_down" />
+
+        <ImageView
+            android:layout_width="@dimen/dim40dp"
+            android:layout_height="@dimen/dim40dp"
+            android:text="Delete"
+            android:id="@+id/imageViewDelete"
+             android:src="@android:drawable/ic_menu_delete"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

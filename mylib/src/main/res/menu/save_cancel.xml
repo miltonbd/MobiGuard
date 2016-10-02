@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_save"
+        android:icon="@drawable/ic_cab_done_holo_dark"
+        app:showAsAction="ifRoom|withText"
+        android:title="Delete"
+        android:titleCondensed="Delete">
+    </item>
+    <item
+        android:id="@+id/action_cancel"
+        android:icon="@drawable/ic_menu_close_clear_cancel"
+        app:showAsAction="ifRoom|withText"
+        android:title="Delete"
+        android:titleCondensed="Delete">
+    </item>
+
+</menu>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#f4f4f4" >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/bottomMenu" />
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/bottomMenu"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim55dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/purple"
+        android:gravity="center_vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bottomMenuLayout"
+            android:orientation="horizontal"
+            android:layout_gravity="left"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:layout_alignParentLeft="true"
+                android:layout_width="@dimen/dim50dp"
+                android:layout_height="@dimen/dim50dp"
+                android:src="@drawable/ic_menu_close_clear_cancel"
+                android:id="@+id/menu_action_clear" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 "
+                android:textStyle="bold"
+                android:textSize="@dimen/dim20dp"
+                android:id="@+id/actionbar_selected_items_count"
+                android:textColor="@android:color/white"
+                android:paddingLeft="@dimen/dim20dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/menu_action_clear"
+                android:layout_toEndOf="@+id/menu_action_clear" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Selected"
+                android:textSize="@dimen/dim20dp"
+                android:textColor="#ffffff"
+                android:id="@+id/textViewSelectedTitle"
+                android:gravity="center_vertical"
+                android:layout_toRightOf="@+id/actionbar_selected_items_count"
+                android:layout_marginLeft="@dimen/dim5dp"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/dim50dp"
+                android:layout_height="@dimen/dim50dp"
+                android:src="@drawable/ic_cab_done_holo_dark"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/dim10dp"
+                android:id="@+id/menu_action_save" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+
+
+</RelativeLayout>

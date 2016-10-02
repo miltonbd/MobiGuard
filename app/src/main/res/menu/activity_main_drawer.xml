@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dashboardDrawer"
+            android:icon="@drawable/icon_dashboard_home"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/passwordsDrawer"
+            android:icon="@drawable/icon_dashboard_passwordlock"
+            android:title="Passwords" />
+        <item
+            android:id="@+id/picturesDrawer"
+            android:icon="@drawable/icon_dashboard_picturelock"
+            android:title="Pictures" />
+        <item
+            android:id="@+id/videosDrawer"
+            android:icon="@drawable/icon_dashboard_videolock"
+            android:title="Videos" />
+
+        <item
+            android:id="@+id/appslockdDrawer"
+            android:icon="@drawable/icon_dashboard_app_lock"
+            android:title="App Lock" />
+
+        <item
+            android:id="@+id/callSmslockdDrawer"
+            android:icon="@drawable/ic_call_sms"
+            android:title="Call-SMS Block" />
+
+        <item
+            android:id="@+id/spyDrawer"
+            android:icon="@drawable/ic_rate_it"
+            android:title="Rate It" />
+
+        <item
+            android:id="@+id/logoutDrawer"
+            android:icon="@drawable/icon_dashboard_logout"
+            android:title="Logout" />
+    </group>
+
+</menu>
