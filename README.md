@@ -13,3 +13,7 @@ This App has four types of functionalities:
 5. Call Block:
 
 6.Spy Recording
+
+![password lock](https://github.com/miltonbd/MobiGuard/blob/master/screen_shots/passlock.png)
+
+![app lock](https://github.com/miltonbd/MobiGuard/blob/master/screen_shots/applock.png)
